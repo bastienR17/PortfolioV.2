@@ -5,7 +5,7 @@
       <p>{{ date }}</p>
     </div>
     <a target="_blank" :href="lien">
-      <img class="w-[35vh] h-[20vh]" :src="img" alt="projet">
+      <img class="w-[35vh] h-[20vh]" :src="img" alt="projet img">
     </a>
   </section>
 </template>
