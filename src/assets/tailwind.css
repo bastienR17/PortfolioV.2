@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Caxo;
+    src: url(fonts/caxo/Caxo.otf) format('truetype');
+  }
+
+  @font-face {
+    font-family: Changa;
+    src: url(fonts/Changa/Changa-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: Changa-bold;
+    src: url(fonts/Changa/Changa-Bold.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: Changa-Light;
+    src: url(fonts/Changa/Changa-Light.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: Changa-Medium;
+    src: url(fonts/Changa/Changa-Medium.ttf) format('truetype');
+  }
+};
+
+@layer utilities {
+  .snap {
+    scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
+  }
+  .snap-y {
+    --scroll-snap-direction: y;
+  }
+  .snap-mandatory {
+    --scroll-snap-constraint: mandatory;
+  }
+  .snap-start {
+    scroll-snap-align: start;
+  }
+};
