@@ -16,7 +16,6 @@
       <div class="content w-11/12 mx-auto h-[90%] pt-[3%] justify-start relative">
         <div class="titre flex flex-col justify-start text-left">
           <h1 class="capitalize text-6xl">bastien roc</h1>
-          <p class="capitalize text-lg ml-1">developer</p>
         </div>
         <div class="menu flex flex-col text-left mt-[5%]">
           <router-link to="/index"><p class="capitalize text-lg">home</p></router-link>

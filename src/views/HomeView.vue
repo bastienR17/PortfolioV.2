@@ -48,7 +48,7 @@
 
     components: {
       LoadingView
-    }, 
+    },
 
     data() {
       return {
